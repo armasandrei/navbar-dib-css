@@ -1,0 +1,52 @@
+/* CSS Reset */
+body{
+    margin: 0;
+    background-color: #333;
+    font-family: 'Oswald', sans-serif;
+ }
+ ul{
+    margin: 0%; 
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    background-color: #222;
+    /* hei ght: 111px; */
+}
+.navbar a{
+    color: white;
+    /* hei ght: 111px; */
+}
+
+.navbar>ul{
+    
+    /* border: 2px solid white; */
+     display: inline-block;
+     vertical-align: middle;
+}
+.navbar>ul>li{
+    
+    /* border: 1px solid orange; */
+     display: inline-block;
+     
+    padding: 20px 10px;
+vertical-align: middle;
+}
+.navbar>ul.branding{
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.navbar>ul.branding li:first-child{
+
+    font-size: 30px;
+vertical-align: middle;
+
+}
+.navbar>ul.client{
+   
+      margin-left: 350px;
+
+}
